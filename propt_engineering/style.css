@@ -1,0 +1,150 @@
+/* =========================
+   Reset & Global Styles
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(2, 13, 45);
+}
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;;
+  line-height: 1.7;
+  background-color: rgb(2, 13, 45);
+  color: white;
+}
+
+/* =========================
+   Header
+========================= */
+header {
+  background-color: rgb(2, 13, 45);
+  color: rgba(224, 231, 234, 0.962);
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   Main Content
+========================= */
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    margin-top: 20px;
+    color: white;
+}
+
+section p {
+    margin: 10px 0;
+}
+
+/* Style lists inside paragraphs */
+section ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+.related-links {
+  font-size: 25px;
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  color:white;
+  text-align: left;
+}
+
+.related-box {
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+}
+
+.related-box a {
+  color: #0078D7;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.related-box a:hover {
+  color: white;
+  background-color: #0078D7;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+
+/* =========================
+   Button
+========================= */
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+  background: rgb(2, 13, 45);
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+
+  .footer {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background: #f1f1f1;
+}
+
+ .linkedin {
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 24px;
+}
+ .linkedin i {
+  color: white;
+}
+
+}
+/* =========================
+   Responsive Design
+========================= */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
