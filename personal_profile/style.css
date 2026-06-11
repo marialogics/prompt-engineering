@@ -1,25 +1,22 @@
 /* =========================
-   Reset & Global Styles
+  Reset & Global Styles
 ========================= */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(2, 13, 45);
-}
 
 body {
-  font-family: "Lucida Console", "Courier New", monospace;;
+  font-family: "Lucida Console", "Courier New", monospace;
   line-height: 1.7;
   color: white;
+  background-image: url("https://raw.githubusercontent.com/marialogics/js-projects/e67792da4ed83851b5dd2301da77fdc3bcbd53c8/personal_profile/safar-unsplash.jpg?token=GHSAT0AAAAAAD45JIG3K2WODECUVNF4J3KM2RLBVDA");
+  background-size: cover;     
+  background-position: center;
+  background-repeat: no-repeat;
   
 }
 
 /* =========================
-   Header
+  Header
 ========================= */
 header {
-  color: rgba(224, 231, 234, 0.962);
   padding: 20px;
   text-align: center;
   font-size: 15px;
@@ -44,13 +41,12 @@ header h1 {
   Main Content
 ========================= */
 main {
+  padding: 0;
+  box-sizing: border-box;
   padding: 30px;
   max-width: 900px;
   margin: auto;
   font-size: 90px;
-  background-image: url("https://github.com/marialogics/js-projects/blob/main/personal_profile/safar-unsplash.jpg");
-  background-size: cover;     
-  background-position: center;
 }
 
 section h2 {
@@ -106,13 +102,13 @@ section ul li {
    Button
 ========================= */
 button {
-    margin-top: 20px;
-    padding: 10px 15px;
-    background-color: #0078d4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
