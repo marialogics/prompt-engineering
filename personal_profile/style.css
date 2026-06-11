@@ -29,7 +29,6 @@ header {
   position: absolute;
   top: 10px;
   right: 10px;
-
 }
 
   .email i {
@@ -42,13 +41,14 @@ header h1 {
 
 }
 /* =========================
-   Main Content
+  Main Content
 ========================= */
 main {
   padding: 30px;
   max-width: 900px;
   margin: auto;
   font-size: 90px;
+  background-image: url("https://github.com/marialogics/js-projects/blob/main/personal_profile/safar-unsplash.jpg");
   background-size: cover;     
   background-position: center;
 }
