@@ -156,6 +156,3 @@ This project is open source and available for educational and personal use.
 Created by Maria Logic Services as a guide to mastering prompt engineering with large language models.
 
 ---
-
-**Version**: 1.0.0  
-**Last Updated**: July 3, 2026
