@@ -1,0 +1,34 @@
+
+{
+  "description": "This is a .json file for updating different sites that have remote job postings for users within the African region.",
+  "sites": [
+    {
+      "name": "Working Nomads",
+      "url": "https://www.workingnomads.com/jobs/"
+    },
+    {
+      "name": "20four7VA Virtual Staffing Solutions",
+      "url": "https://20four7va.com/careers/#opportunities"
+    },
+    {
+      "name": "Turing AI Technology",
+      "url": "https://work.turing.com/jobs"
+    },
+    {
+      "name": "Micro1 AI",
+      "url": "https://www.micro1.ai/experts/opportunities"
+    },
+    {
+      "name": "Mercor",
+      "url": "https://work.mercor.com/explore?utm_source=mercor_site&utm_medium=direct&utm_campaign=platform&attributionId=0c1be76d-e744-404e-9b17-b96a7fb6750d&_gl=1*1w4as4q*_gcl_au*MjEzNjA4NTgzMS4xNzkwNjAxNzg2"
+    },
+    {
+      "name": "Powertofly jobs",
+      "url": "https://powertofly.com/jobs"
+    },
+    {
+      "name": "SupportWave",
+      "url": "https://www.supportwave.com/careers"
+    }
+  ]
+}
