@@ -1,0 +1,14 @@
+.gradle/
+build/
+*.apk
+*.aar
+*.ap_
+*.aab
+local.properties
+*.log
+.DS_Store
+.idea/
+*.iml
+*.iws
+*.ipr
+gradle-wrapper.jar

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Remote Africa Jobs</string>
+    <string name="theme_toggle">Toggle Theme</string>
+    <string name="loading">Loading job listings...</string>
+    <string name="error">Error loading jobs</string>
+    <string name="no_jobs">No job listings found</string>
+</resources>
